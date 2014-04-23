@@ -55,6 +55,12 @@ header {
 }
 
 .logo {
+    display: block;
+    width: 10rem;
+    margin: 1rem 5%;
+}
+
+.logo {
     width: 20rem;
     height: 4.6rem;
     float: left;
