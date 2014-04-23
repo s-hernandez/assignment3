@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    color: black;
+    font-size: .85rem;
+    text-decoration:none;
+    font-family: "ITC Avant Garde Gothic std", ITC Avant Garde Gothic std, Arial, sans-serif;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5e5c6;
+    border-top: .8rem solid maroon;
+    border-bottom: .8rem solid maroon;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.masthead {
+    margin: auto;
+    background-image: url(../images/raspberrypie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: maroon;
+    overflow: hidden;
+    height: 25rem;
+    border-bottom: .8rem solid maroon;
+    width: 100%;
+}
+
+.logo {
+    width: 22rem;
+    height: 4.5rem;
+    float: left;
+    margin: .875rem 5%;
+    display: block;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	height: 70px;
+    width: 70px;
+	overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
+	text-indent: 100%;
+	white-space: nowrap; 
+}
+
+.nav-top {
+    position: relative;
+    top: .8rem;
+	max-height: 0; 
+    background-color: maroon;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 14rem; 
+}
+
+.nav-top ul { 
+	margin: 0;
+    padding: 3rem 0;
+    list-style-type: none;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+	display: block;
+	font-size: 1.25em;
+    padding: .875rem 5%;
+	color: white;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    margin: auto;
+    width: 100%;
+    font-size: .90rem;
+}
+
+.figcaption {
+    margin: 1rem;
+    font-size: .25rem;
+    padding: 5%;
+    background-color: black;
+}
+
+h1 {
+    margin: auto;
+    padding: none;
+}
+
+h2 {
+    margin: 15rem 0;
+    background-color: rgba(234, 215, 191, .7);
+    background-size: 2rem;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: -.1rem;
+    text-transform: uppercase;
+    padding: 5%;
+}
+
+h3 span {
+    font-family: "ITC Avant Garde Gothic std", ITC Avant Garde Gothic std, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 3.25rem;
+    line-height: 3rem;
+    margin: 3rem 0;
+    color: pink;
+}
+
+h3 a {
+    font-weight: normal;
+    font-size: 3.25rem;
+    line-height: 3rem;
+    margin: 3rem 0;
+}
+
+p {
+    margin: 5%;
+    padding: none;
+}
+
+p1 {
+    margin: 5%;
+    padding: none;
+}
+
+dl {
+    margin: 0 0 1.5rem;
+}
+
+dt {
+    margin: 0;
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 1.5rem 10%;
+}
+
+footer {
+    background-color: maroon;
+    margin: auto;
+    padding: 1rem;
+}
+
+.nav-bottom {
+    clear: both;
+}
+
+.nav-bottom ul {
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+    text-align: center;
+}
+
+.nav-bottom li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 5%;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+ul li {
+    list-style-image: url(../images/star.svg);
+    font-size: 1rem;
+}
+    
+
+
+
+
+
+
