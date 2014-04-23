@@ -25,7 +25,10 @@ html {
 
 img {
 	width: 100%;
+    height: auto;
     display: block;
+    margin: 5%;
+    padding: 0;
 }
 
 body {
@@ -41,6 +44,11 @@ header {
     font-size: 1rem;
 }
 
+article {
+    margin: 5%;
+    padding: 0;
+}
+
 .masthead {
     margin: auto;
     background-image: url(../images/cherrycupcakes.jpg);
@@ -54,18 +62,20 @@ header {
     width: 100%;
 }
 
-.logo {
-    display: block;
-    width: 10rem;
-    margin: 1rem 5%;
+.about {
+    background-image: url(../images/pie2.jpg);
+}
+
+.menu {
+    background-image: url(../images/flour.jpg)
 }
 
 .logo {
-    width: 20rem;
-    height: 4.6rem;
-    float: left;
-    margin: .875rem 5%;
     display: block;
+    width: 16rem;
+    height: 4rem;
+    margin: 1rem 5%;
+    padding: 0 2%;
 }
 
 .nav-btn,
@@ -129,6 +139,33 @@ figure {
     background-color: black;
 }
 
+.container {
+    margin: 0;
+    padding: 0 5%;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.container p {
+    padding: 0;
+    margin: 0;
+}
+
+.float-left {
+    padding: 0 5% 0 0;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.float-right {
+    padding: 0 0 0 5%;
+    display: block;
+    float: right;
+    width: 50%;
+}
+
 h1 {
     margin: auto;
     padding: none;
@@ -140,19 +177,20 @@ h2 {
     background-size: 2rem;
     font-weight: normal;
     font-size: 1.5rem;
-    letter-spacing: -.1rem;
+    letter-spacing: 0;
     text-transform: uppercase;
     padding: 5%;
 }
 
 h3 span {
     font-family: "ITC Avant Garde Gothic std", ITC Avant Garde Gothic std, Arial, sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 3.25rem;
     line-height: 3rem;
     margin: 0;
-    color: pink;
+    color: #db4c50;
     padding: 0;
+    letter-spacing: 0;
 }
 
 h3 a {
@@ -163,12 +201,19 @@ h3 a {
     padding: 1rem;
 }
 
-p {
+h4 {
+    margin: 5%;
+    padding: 0;
+    font-size: 1.5rem;
+   font-weight: 500;
+}
+
+h5 {
     margin: 5%;
     padding: none;
 }
 
-p1 {
+p {
     margin: 5%;
     padding: none;
 }
@@ -179,17 +224,40 @@ dl {
 
 dt {
     margin: 5%;
-    font-weight: normal;
+    font-weight: bold;
+    font-weight: 600;
 }
 
 dd {
     margin: 0 0 1.5rem 10%;
 }
 
+.bucket3 {
+    overflow: hidden;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    background-color: white;
+}
+
+.bucket3 img {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0;
+    padding: 0;
+}
+
+.bucket3 figcaption {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
 footer {
     background-color: maroon;
-    margin: auto;
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-bottom {
@@ -201,6 +269,7 @@ footer {
     padding: 0;
     background-color: maroon;
     text-align: center;
+    width:  100%;
 }
 
 .nav-bottom li {
