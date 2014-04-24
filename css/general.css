@@ -255,12 +255,6 @@ ul {
     background-color: white;
 }
 
-footer {
-    background-color: maroon;
-    margin: 0;
-    padding: 0;
-}
-
 .nav-bottom {
     clear: both;
 }
@@ -294,7 +288,11 @@ footer {
     font-weight: normal;
 }
     
-
+footer {
+    background-color: maroon;
+    margin: 0;
+    padding: 0;
+}
 
 
 
