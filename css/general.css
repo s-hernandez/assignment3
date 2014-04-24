@@ -306,7 +306,7 @@ ul {
     background-position: center top;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 100% 0 0; /* height of image ÷ by width = % */
+    padding: 100% 0 0;
 }
 
 .one {
@@ -318,7 +318,7 @@ ul {
 }
 
 .three {
-    background-image: url(../images/urbanspoon-01.svg);
+    background-image: url(../images/instagram-01.svg);
 }
 
 footer {
