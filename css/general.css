@@ -284,10 +284,43 @@ ul {
     text-decoration: none;
 }
 
-.bullets {
-    font-weight: normal;
+.bucket2 {
+    margin: auto;
+    overflow: hidden;
+    list-style: none;
+    background-color: white;
 }
-    
+
+.bucket2 li {
+    float: left;
+    width: 20%;
+    margin: 0 2% 1.5rem;
+    padding: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+.one {
+    background-image: url(../images/facebook-01.svg);  
+}
+
+.two {
+    background-image: url(../images/twitter.svg);
+}
+
+.three {
+    background-image: url(../images/urbanspoon-01.svg);
+}
+
 footer {
     background-color: maroon;
     margin: 0;
